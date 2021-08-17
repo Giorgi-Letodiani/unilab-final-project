@@ -1,0 +1,15 @@
+@media (max-width: 860px){
+    .burger-icon{
+        display: block;
+    }
+    .nav-wrapper{
+        display: none;
+    }
+    .header-box,
+    .nav-ul{
+        flex-direction: column;
+    }
+    .nav-wrapper.active{
+        display: block;
+    }
+}
