@@ -43,9 +43,9 @@
         font-size: 14px;
     }
     .main-page-text{
-        max-width: 83px;
+        max-width: 81px;
         width: 100%;
-        font-size: 46px;
+        font-size: 43px;
     }
 }
 @media (max-width: 900px){
