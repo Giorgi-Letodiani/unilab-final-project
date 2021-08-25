@@ -48,3 +48,41 @@
         font-size: 46px;
     }
 }
+@media (max-width: 900px){
+    .content-box img{
+        width: 400px;
+    }
+    .text-1{
+        font-size: 15px;
+    }
+    .text-2{
+        font-size: 25px;
+    }
+}
+@media (max-width: 700px){
+    .first-block-text{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .content-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-box img{
+        height: 200px;
+    }
+    .content-text-box{
+        align-items: center;
+        height: 150px;
+    }
+}
+@media (max-width: 450px){
+    .content-box img{
+        width: 250px;
+        height: 130px;
+    }
+    .text-2{
+        font-size: 20px;
+    }
+}
