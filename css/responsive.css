@@ -1,4 +1,4 @@
-@media (max-width: 860px){
+@media (max-width: 760px){
     /* header */
     .burger-icon{
         display: block;
@@ -17,8 +17,34 @@
     .nav-wrapper.active{
         display: block;
     }
-    /* slick-slider */
-    .slick{
-        padding-top: 25px;
+    /* main texts */
+    .veritacl-main-page-text{
+        font-size: 30px;
+    }
+    .main-page-text{
+        max-width: 140px;
+        width: 100%;
+        font-size: 80px;
+    }
+}
+@media (max-width: 590px){
+    /* main texts */
+    .veritacl-main-page-text{
+        font-size: 20px;
+    }
+    .main-page-text{
+        max-width: 100px;
+        width: 100%;
+        font-size: 60px;
+    }
+}
+@media (max-width: 420px){
+    .veritacl-main-page-text{
+        font-size: 14px;
+    }
+    .main-page-text{
+        max-width: 83px;
+        width: 100%;
+        font-size: 46px;
     }
 }
