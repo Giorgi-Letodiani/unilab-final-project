@@ -89,6 +89,17 @@
         text-align: center;
         font-size: 25px;
     }
+    .advice-content{
+        
+        flex-direction: column-reverse;
+    }
+    .advice-img{
+        margin: 0 auto;
+    }
+    .advice-img{
+        margin-top: 250px;
+        height: 300px;
+    }
 }
 @media (max-width: 450px){
     .content-box img{
