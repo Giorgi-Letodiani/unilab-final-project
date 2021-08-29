@@ -224,3 +224,44 @@
     color: #f1db06;
     font-family: 'Anton', sans-serif;
 }
+/* equipment input wrapper */
+.form-wrapper{
+    max-width: 900px;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+    display: flex;
+}
+.search-wrapper{
+    width: 100%;
+    background-color: #EDF0F2;
+    border: 3px solid #2c8b5a;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #000000;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.search-wrapper:focus{
+    outline: none;
+}
+.search-wrapper::placeholder{
+    color: gray;
+    font-style: italic;
+}
+
+.s-button{
+    width: 40px;
+    height: 50px;
+    border: 1px solid #2c8b5a;
+    background: #2c8b5a;
+    text-align: center;
+    color: #EDF0F2;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
