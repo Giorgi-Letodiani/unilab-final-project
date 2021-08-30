@@ -382,13 +382,13 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .gallery-main-text{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     color: #E4003B;
     cursor: default;
+    text-align: center;
 }
 .gallery-img-box img{
     width: 100%;
