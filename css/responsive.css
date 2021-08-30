@@ -62,7 +62,6 @@
 @media (max-width: 700px){
     .first-block-text{
         text-align: center;
-        font-size: 25px;
         margin-bottom: 5px;
     }
     .content-box{
@@ -87,7 +86,6 @@
     }
     .head-equipment-text{
         text-align: center;
-        font-size: 25px;
     }
     .advice-content{
         
@@ -108,5 +106,45 @@
     }
     .text-2{
         font-size: 20px;
+    }
+}
+@media (max-width: 1125px){
+    .gallery-text{
+        font-size: 28px;
+    }
+}
+@media (max-width: 900px){
+    .gallery-text{
+        font-size: 23px;
+    }
+}
+@media (max-width: 700px){
+    .gallery-text{
+        width: 100px;
+        word-wrap: break-word;
+        font-size: 16px;
+    }
+}
+@media (max-width: 450px){
+    .gallery-text{
+        width: 70px;
+        font-size: 13px;
+    }
+    .gallery-text-box{
+        top: 35%;
+    }
+}
+/* footer responsive */
+@media (max-width: 800px){
+    .footer-undet-text{
+        display: none;
+    }
+    .footer-main-text{
+        padding-bottom: 0px;
+    }
+}
+@media (max-width: 400px){
+    .footer-main-text{
+        font-size: 15px;
     }
 }

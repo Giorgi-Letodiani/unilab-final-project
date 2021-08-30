@@ -93,7 +93,7 @@
 .first-block-text{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    color: #000000;
+    color: #E4003B;
 }
 .content-box{
     width: 100%;
@@ -156,7 +156,7 @@
 .head-equipment-text{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    color: #000000;
+    color: #E4003B;
     text-transform: uppercase;
     margin-left: 10px;
 }
@@ -376,4 +376,114 @@
     background-color: #E4003B;
     transition: all 0.5s ease-out;
 }
-
+/* gallery */
+.gallery-box{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery-main-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #E4003B;
+    cursor: default;
+}
+.gallery-img-box img{
+    padding-top: 25px;
+    width: 100%;
+}
+.gallery-text-box{
+    position: absolute;
+    top: 30%;
+    left: 9%;
+}
+.gallery-text{
+    color: #EDF0F2;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.gallery-text:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+    color: #2c8b5a;
+}
+/* footer */
+.footer-img-box{
+    margin-top: 50px;
+    position: relative;
+}
+.footer-img-box img{
+    width: 100%;
+    filter: brightness(50%);
+}
+.footer-info-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 1150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer-logo-box{
+    max-width: 125px;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo-box img{
+    width: 100%;
+    height: 100%;
+}
+.footer-wrapper{
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-wrapper-text-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-main-text{
+    color: #E4003B;
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+    cursor: pointer;
+    padding-bottom: 7px;
+}
+.footer-undet-text{
+    color: #EDF0F2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: 3px;
+}
+.footer-fonts{
+    max-width: 70px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+}
+.fa-facebook-f,
+.fa-twitter,
+.fa-youtube{
+    color: #EDF0F2;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+} 
